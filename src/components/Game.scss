@@ -1,0 +1,237 @@
+.light {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #e5e7eb 0%, #f9fafb 100%);
+     color: #000;
+  }
+  
+  .dark {
+    height: 100vh;
+    width: 100vw;
+      background: linear-gradient(180deg, #111827 0%, #1f2937 100%);
+      color: #FFF;
+  }
+
+  .game h1 {
+    font-size: 2.5em;
+  }
+
+  .points {
+    margin-top: 2.5em;
+    font-weight: bold;
+  }
+
+  .category {
+    color: #06b6d4;
+  }
+
+  .centerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+  .wordContainerDark {
+    margin: 1.5em;
+    padding: 1.5em;
+    border: 20px solid #06b6d4;
+    border-radius: 7px;
+    display: flex;
+    width: auto;
+    height: auto;
+  }
+
+  .wordContainerLight {
+    margin: 1.5em;
+    padding: 1.5em;
+    border: 20px solid #155e75;
+    border-radius: 7px;
+    display: flex;
+  }
+
+  .letterDark,
+  .blankSquareDark {
+    font-size: 70px;
+    line-height: 1.5;
+    border: 3px solid #000;
+    border-radius: 7px;
+    height: 100px;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: #FFF;
+    color: #000;
+    font-weight: bold;
+    transition: 4s;
+    transform: rotate(360deg);
+
+  }
+
+  .letterLight,
+  .blankSquareLight {
+    font-size: 70px;
+    line-height: 1.5;
+    border: 3px solid #FFF;
+    border-radius: 7px;
+    height: 100px;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: #0f172a;
+    color: #FFF;
+    font-weight: bold;
+    transition: 4s;
+
+
+  }
+
+  .letterContainerDark {
+    p {
+      font-weight: bold;
+    }
+
+    input {
+      width: 60px;
+      height: 60px;
+      border-radius: 7px;
+      margin-right: 3em;
+      text-align: center;
+      background-color: #f4f4f5;
+      font-size: 20px;
+    }
+
+    button {
+      background-color: #155e75;
+      width: 10em;
+      height: 3.6em;
+      border-radius: 1.5em;
+      border: 2px solid #a3a3a3;
+      color: #fff;
+      text-transform: uppercase;
+        font-weight: bold;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: 1.5s;
+    }
+  
+    button:hover {
+      background-color: #0284c7;
+    }
+    }
+
+    .letterContainerLight {
+      p {
+        font-weight: bold;
+      }
+  
+      input {
+        width: 60px;
+        height: 60px;
+        border-radius: 7px;
+        margin-right: 3em;
+        text-align: center;
+        background-color: #0f172a;
+        color: #FFF;
+        font-size: 20px;
+      }
+  
+      button {
+        background-color: #155e75;
+        width: 10em;
+        height: 3.6em;
+        border-radius: 1.5em;
+        border: 2px solid #a3a3a3;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.1em;
+        cursor: pointer;
+        transition: 1.5s;
+      }
+    
+      button:hover {
+        background-color: #0284c7;
+      }
+      }
+
+      @media (max-width: 1000px) {
+         .wordContainerDark {
+          max-width: 600px;
+          
+          border: 10px solid #06b6d4;
+         } 
+
+         .wordContainerLight {
+          max-width: 600px;
+          border: 15px solid #155e75;
+         } 
+
+         .letterLight,
+         .blankSquareLight {
+          font-size: 55px;
+          width: 85px;
+          height: 75px;
+         }
+
+         .letterDark,
+         .blankSquareDark {
+          font-size: 55px;
+          width: 85px;
+          height: 75px;
+
+         }  
+      }
+
+      @media (max-width: 575px) {
+        .wordContainerDark {
+         max-width: 400px;
+        }
+
+         .wordContainerLight {
+         max-width: 500px;
+        } 
+
+        .letterLight,
+        .blankSquareLight {
+         font-size: 45px;
+         width: 70px;
+         height: 65px;
+        }
+
+        .letterDark,
+        .blankSquareDark {
+         font-size: 45px;
+         width: 70px;
+         height: 60px;
+
+        } 
+
+       
+     }
+
+     @media (max-width: 475px) {
+      .wordContainerDark {
+       max-width: 300px;
+      }
+
+       .wordContainerLight {
+       max-width: 300px;
+      } 
+
+      .letterLight,
+      .blankSquareLight {
+       font-size: 25px;
+       width: 50px;
+       height: 35px;
+      }
+
+      .letterDark,
+      .blankSquareDark {
+       font-size: 25px;
+       width: 50px;
+       height: 35px;
+
+      } 
+
+     
+   }
+
+      
+  
