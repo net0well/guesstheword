@@ -54,5 +54,3 @@ npm start
 ## 🖼️ Layout
 <img src=".github/layout.png" />
 
----
-<p>Criado com 💙 por <a href='https://github.com/Savio-Anjos/' target='_blank'>Sávio Anjos</a></p>
